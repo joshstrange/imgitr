@@ -10,15 +10,15 @@ I saw this [Reddit thread](https://old.reddit.com/r/ChatGPT/comments/1k9yow9/cha
 
 ### Input Image
 _Input image was AI generated_
-![Input Image](input/fake.png)
+![Input Image](./input/fake.png)
 
 ### Output
-![Demo GIF](demo.gif)
+![Demo GIF](./demo.gif)
 
 `bun src/index.ts generate input/fake.png 10`
 
 ### Output with custom prompt
-![Demo 2 GIF](demo2.gif)
+![Demo 2 GIF](./demo2.gif)
 `bun src/index.ts generate input/fake.png 10 --prompt="Make this person look 1 year older but otherwise identical"`
 
 ## Features
