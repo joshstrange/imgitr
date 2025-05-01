@@ -1,0 +1,8 @@
+.aider*
+node_modules
+
+.envrc
+
+generated
+input
+!input/fake.png

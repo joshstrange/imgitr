@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // Use modern JavaScript features
+    "module": "ESNext", // Use ES modules
+    "moduleResolution": "Bundler", // Recommended for modern bundlers/runtimes like Bun
+    "strict": true, // Enable strict type checking
+    "esModuleInterop": true, // Allow default imports from CommonJS modules
+    "allowSyntheticDefaultImports": true, // Allow synthetic default imports
+    "skipLibCheck": true, // Skip type checking of declaration files (can speed up compilation)
+    "forceConsistentCasingInFileNames": true, // Ensure consistent file casing
+    "outDir": "./dist", // Optional: specify output directory if compiling
+    "rootDir": "./", // Specify root directory of source files
+    "jsx": "react-jsx", // Required by Bun/React even if not using React directly
+    "types": ["bun-types"] // Include Bun's specific types
+  },
+  "include": [
+    "src/index.ts"
+  ], // Specify files to include in compilation
+  "exclude": ["node_modules", "dist"] // Specify files/directories to exclude
+}
